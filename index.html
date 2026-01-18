@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Full Stack AI Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORT<span>FOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Hello, It's Me</h3>
+            <h1>DHARMRAJ PATIL</h1>
+            <h2>And I'm a <span class="typing-text"></span></h2>
+            <p>I am an Information Technology engineering student at SVKM with a strong growth mindset and passion for building impactful software.
+I focus on mastering core computer science fundamentals and developing real-world, scalable projects.
+My goal is to grow into a high-impact software engineer and contribute to technology built at scale.</p>
+            <div class="social-icons">
+                <a href="https://www.linkdin.com/in/Dharmraj Patil" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.github.com/Dharmraj-web" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/@DharmrajPatil07" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="RESUME.pdf" class="btn btn-outline" download="My_Professional_CV.pdf">Download CV</a>
+</div>
+            </div>
+        </div>
+        <div class="hero-img">
+            <div class="img-box">
+                <img src="ai boy.jpg" alt="Profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2 class="heading">About <span>Me</span></h2>
+                <p>I am a versatile engineer specializing in the intersection of traditional software development and artificial intelligence. With expertise across the full stack, I ensure high performance and security in every project.</p>
+                
+                <div class="skills-container">
+                    <div class="skill-box">
+                        <div class="skill-info"><span>Frontend Development</span><span>80%</span></div>
+                        <div class="progress-line"><span style="width: 80%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-info"><span>Backend Engineering</span><span>85%</span></div>
+                        <div class="progress-line"><span style="width: 85%;"></span></div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-info"><span>Machine Learning</span><span>50%</span></div>
+                        <div class="progress-line"><span style="width: 50%;"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive and high-performance websites using modern technologies.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-brain"></i>
+                <h3>AI Solutions</h3>
+                <p>Implementing machine learning models and intelligent automation tools.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-server"></i>
+                <h3>Cloud Ops</h3>
+                <p>Deploying and managing scalable infrastructure on AWS and Azure.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cybersecurity</h3>
+                <p>Securing applications against vulnerabilities and data breaches.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-link"></i>
+                <h3>Blockchain</h3>
+                <p>Developing decentralized applications and smart contract logic.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>App Design</h3>
+                <p>Crafting intuitive user experiences for mobile and desktop platforms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+        </div>
+        <div class="project-gallery">
+            <div class="project-card" data-category="web">
+                <img src="coming soon.jpg" alt="Project">
+                <div class="project-layer">
+                    <h4>E-Commerce Platform</h4>
+                    <p>Full stack shop with payment integration.</p>
+                </div>
+            </div>
+            <div class="project-card" data-category="ai">
+                <img src="coming soon.jpg" alt="Project">
+                <div class="project-layer">
+                    <h4>NLP Chatbot</h4>
+                    <p>AI assistant for customer support.</p>
+                </div>
+            </div>
+            <div class="project-card" data-category="web">
+                <img src="coming soon.jpg" alt="Project">
+                <div class="project-layer">
+                    <h4>Crypto Dashboard</h4>
+                    <p>Real-time blockchain data visualizer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+<div class="form-box">
+    <h2>Contact me</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="phone" placeholder="Your Phone" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="button" onclick="sendWhatsApp()">Send on WhatsApp</button>
+        <button type="button" class="email-btn" onclick="sendEmail()">Send on Email</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+
+</html>
